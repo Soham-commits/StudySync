@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  background-color: #f5f5f7;
+}
+.Container {
+  max-width: 85vw;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Header {
+  margin-bottom: 2.8rem;
+}
+#Title {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+#Description {
+  max-width: 500px;
+  text-align: center;
+  color: rgb(53, 46, 46);
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+.Main_container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 935px) {
+  .Main_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1380px) {
+  .Main_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1600px) {
+  .Main_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.Card_container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 4px 12px #00000014;
+  background-color: white;
+  padding: 10px 24px;
+}
+.Card_img_container {
+  position: relative;
+  overflow: hidden;
+  height: 11rem;
+}
+@media (min-width: 768px) {
+  .Card_img_container {
+    height: 16rem;
+  }
+}
+.Card_img {
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Card_title {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.Card_img:hover {
+  transform: scale(1.1);
+  transition-duration: 200ms;
+}
+#head {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  line-height: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+.card_title_anchor:hover #head {
+  color: rgb(114, 114, 239);
+}
+.Card_desc {
+  color: rgb(79, 75, 75);
+  font-size: 14px;
+}
+.Card_footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.Card_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.author {
+  height: 2.5rem;
+  width: 2.5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid rgb(88, 84, 84);
+  background-color: rgb(241, 235, 235);
+}
+.Author_info {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  color: rgb(104, 104, 162);
+}
+.date {
+  color: rgb(92, 86, 86);
+}
+.tag {
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  background-color: #0071e3;
+  padding: 5px 20px;
+}
+.tag:hover{
+  transform: scale(1.1);
+  transition-duration: 200ms;
+}
+.Card_img_container2 {
+  position: relative;
+  overflow: hidden;
+  height: 16rem;
+}
+.Card_img_container3 {
+  position: relative;
+  overflow: hidden;
+  height: 15.8rem;
+}
+.Card_img_container3 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  width: 15rem;
+  margin-left: 65px;
+  margin-top: 29px;
+}
+.Card_img_container4 {
+  position: relative;
+  overflow: hidden;
+  height: 15.8rem;
+}
+.Card_img_container4 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  width: 15rem;
+  margin-left: 65px;
+  margin-top: 29px;
+}
+.Card_img_container5 {
+  position: relative;
+  overflow: hidden;
+  height: 15.8rem;
+}
+.Card_img_container5 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  width: 15rem;
+  margin-left: 65px;
+  margin-top: 29px;
+}
+.Card_img_container6 {
+  position: relative;
+  overflow: hidden;
+  height: 15.8rem;
+}
+.Card_img_container6 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  width: 15rem;
+  margin-left: 65px;
+  margin-top: 20px;
+}
+.Card_img_container7 {
+  position: relative;
+  overflow: hidden;
+  height: 15.8rem;
+}
+.Card_img_container7 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  width: 15rem;
+  margin-left: 65px;
+  margin-top: 29px;
+}
+.Card_img_container8 {
+  position: relative;
+  overflow: hidden;
+  height: 15.8rem;
+}
+.Card_img_container8 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  width: 15rem;
+  margin-left: 65px;
+  margin-top: 10px;
+}
